@@ -23,7 +23,6 @@ def get_japanese_emoticon(file_path, western_emoticon)
     if emoji[0] == western_emoticon
     emoji[1]
     
-  
 end
 
 def get_english_meaning
