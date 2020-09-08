@@ -20,16 +20,3 @@ end
 def get_english_meaning
   # code goes here
 end
-
-def list_dwarves(array)
-  array.each_with_index do |dwarf, index|
-    puts "#{index+1}. #{dwarf}"
-  end
-end
-
-   {
-      'happy' => {
-         :english => ":)",
-         :japanese => "(＾ｖ＾)"
-      }
-   }
