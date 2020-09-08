@@ -20,6 +20,7 @@ def get_japanese_emoticon(file_path, western_emoticon)
   japanese_emoticon = nil
   emoticon_dictionary.each do |emotion, emoticons|
     if emoticons[language][emoticons.key(western_emoticon)]
+      japanese_emoticon = emoticons[:japanese]
     
   end
   japanese_emoticon
