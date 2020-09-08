@@ -19,7 +19,7 @@ def get_japanese_emoticon(file_path, western_emoticon)
   emoticon_dictionary = load_library(file_path)
   japanese_emoticon = nil
   emoticon_dictionary.each do |emotion, emoticons|
-    if emoticons
+    if emoticons[language]
     
   end
   japanese_emoticon
