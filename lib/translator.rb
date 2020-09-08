@@ -33,6 +33,7 @@ def get_english_meaning(file_path, japanese_emoticon)
   emoticon_dictionary.each do |emotion, emoticons|
     if emoticons[:japanese] == japanese_emoticon
       english_meaning = emotion
+    end
   end
   english_meaning
 end
