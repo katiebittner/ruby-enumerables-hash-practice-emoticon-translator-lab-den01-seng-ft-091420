@@ -4,6 +4,8 @@ emoticons = YAML.load_file('emoticons.yml')
 
 def load_library
   emoticons.each do |emotion, emoji|
+    puts 
+  end
 end
 
 def get_japanese_emoticon
