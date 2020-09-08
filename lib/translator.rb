@@ -17,13 +17,13 @@ end
 def get_japanese_emoticon(file_path, western_emoticon)
   
   emoticon_dictionary = load_library(file_path)
-  
+  japanese_emoticon
   emoticon_dictionary.each do |language, emoji|
-    
-  if emoji[0] == western_emoticon
-    emoji[1]
+    if emoji[0] == western_emoticon
+      japanese_emoticon = emoji[1]
+    end
   end
-    
+  japanese_emoticon
 end
 
 def get_english_meaning
