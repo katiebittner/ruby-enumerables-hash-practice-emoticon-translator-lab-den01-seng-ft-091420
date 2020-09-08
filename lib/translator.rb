@@ -6,7 +6,7 @@ def load_library
   emoticon_dictionary = {}
   emoticons.each do |emotion, emoji|
     emoticon_dictionary[emotion] = {
-      :english => emoji[0]
+      :english => emoji[0],
       :japanese => emoji[1]
     }
     
